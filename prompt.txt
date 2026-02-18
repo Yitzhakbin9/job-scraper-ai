@@ -1,0 +1,21 @@
+I'm attaching two files:
+
+My CV (cv_profile.txt) — my resume in document format
+A profile template (cv_profile.txt) — a structured template used by a job-searching script
+
+Please read my CV carefully and rewrite the cv_profile.txt template based on my actual experience, skills, and preferences.
+The template has the following sections that you need to fill in:
+
+CV PROFILE – name, role looking for, years of experience, tech stack, location, what I'm not looking for, extra notes
+SEARCH SETTINGS – search keywords, location, and number of pages (keep defaults: 3 pages)
+MATCHING RULES – boost keywords, penalize keywords, and extra instructions for job matching
+
+Important rules:
+
+Keep the exact same structure and format of the template
+Keep all section headers and comment lines (lines starting with #) exactly as they are
+Replace only the placeholder values (text inside [brackets]) with real values from my CV
+For BOOST: add technologies and skills from my CV that I want to prioritize
+For PENALIZE: add technologies or job types that don't match my profile
+For EXTRA INSTRUCTIONS: add any smart matching rules based on my background
+Do not add any explanation outside the file content — return only the updated file

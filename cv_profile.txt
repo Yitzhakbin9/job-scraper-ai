@@ -2,32 +2,49 @@
 # CV PROFILE - Fill in your details
 # =============================
 
-NAME: [Your name]
+NAME: Yitzhak Binyamin
 
-ROLE LOOKING FOR: [e.g. Full Stack Developer, Backend Developer]
+ROLE LOOKING FOR: Full Stack Web Developer (React + Node.js)
 
-YEARS OF EXPERIENCE: [e.g. 3]
+YEARS OF EXPERIENCE: 3
 
 TECH STACK:
-- [e.g. React]
-- [e.g. Node.js]
-- [e.g. Python]
+- React
+- Redux
+- JavaScript
+- Node.js
+- Express
+- MongoDB
+- Firebase
+- Firebase Auth
+- REST APIs
+- JWT
+- SQL
+- Git
+- Docker
+- Kubernetes
+- Jenkins
+- CI/CD
 
-LOCATION: [e.g. Center of Israel]
+LOCATION: Center of Israel (Tel Aviv, Rishon Lezion, Petah Tikva, Ramat Gan and surroundings)
 
 NOT LOOKING FOR:
-- [e.g. Java-only positions]
-- [e.g. positions outside center of Israel]
+- Java-only positions
+- Positions outside center of Israel
 
 EXTRA NOTES:
-- [Any other preferences]
+- 3 years production experience at Bank Hapoalim (Java-based enterprise systems)
+- Completed intensive Full Stack program (React, Node.js, MongoDB, Firebase)
+- Strong focus on clean architecture and production-ready code
+- Experienced in Agile environments and cross-functional teams
+- Open to hybrid, remote, or on-site positions
 
 # =============================
 # SEARCH SETTINGS
 # =============================
 
-SEARCH KEYWORDS: [e.g. Full Stack Developer]
-SEARCH LOCATION: [e.g. Israel]
+SEARCH KEYWORDS: Full Stack Developer
+SEARCH LOCATION: Israel
 SEARCH PAGES: 3
 
 # =============================
@@ -35,13 +52,22 @@ SEARCH PAGES: 3
 # =============================
 
 BOOST:
-- [e.g. React]
-- [e.g. Node.js]
-- [e.g. JavaScript]
+- React
+- Node.js
+- JavaScript
+- TypeScript
+- Full Stack
+- MongoDB
+- Firebase
 
 PENALIZE:
-- [e.g. Java-only positions]
-- [e.g. positions outside center of Israel]
+- Java-only positions
+- Positions outside center of Israel
+- .NET-only positions
+- PHP-only positions
+- Angular-only positions
 
 EXTRA INSTRUCTIONS:
-- [e.g. Prefer product companies over outsourcing]
+- Prefer product companies over outsourcing companies
+- Prefer companies with modern tech stack
+- Mid-level or senior positions are preferred
