@@ -23,6 +23,14 @@ EXTRA NOTES:
 - [Any other preferences]
 
 # =============================
+# SEARCH SETTINGS
+# =============================
+
+SEARCH KEYWORDS: [e.g. Full Stack Developer]
+SEARCH LOCATION: [e.g. Israel]
+SEARCH PAGES: 3
+
+# =============================
 # MATCHING RULES - Customize to your needs
 # =============================
 

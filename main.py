@@ -8,6 +8,31 @@ from analyzer import analyze_all_jobs, get_cost_summary
 import subprocess
 import json
 import os
+import re
+
+
+def load_search_settings() -> dict:
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    cv_path = os.path.join(base_dir, "cv_profile.txt")
+    with open(cv_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    keywords = "Full Stack Developer"
+    location = "Israel"
+    pages = 3
+
+    for line in content.splitlines():
+        if line.startswith("SEARCH KEYWORDS:"):
+            keywords = line.split(":", 1)[1].strip()
+        elif line.startswith("SEARCH LOCATION:"):
+            location = line.split(":", 1)[1].strip()
+        elif line.startswith("SEARCH PAGES:"):
+            try:
+                pages = int(line.split(":", 1)[1].strip())
+            except ValueError:
+                pass
+
+    return {"keywords": keywords, "location": location, "pages": pages}
 
 
 def save_to_excel(jobs: list, cost: dict):
@@ -76,7 +101,6 @@ def save_to_json(jobs: list, cost: dict):
         "jobs": jobs[:50]
     }
 
-    # שמירה גם בתיקיית job-agent וגם ב-frontend/public
     base_dir = os.path.dirname(os.path.abspath(__file__))
     frontend_public = os.path.join(base_dir, "frontend", "public", "jobs.json")
     local_json = os.path.join(base_dir, "jobs.json")
@@ -94,12 +118,14 @@ def save_to_json(jobs: list, cost: dict):
 
 
 def main():
-    print("Starting LinkedIn job scan...")
+    settings = load_search_settings()
+    print(f"Starting LinkedIn job scan...")
+    print(f"Keywords: {settings['keywords']} | Location: {settings['location']} | Pages: {settings['pages']}\n")
 
     jobs = scrape_linkedin_jobs(
-        keywords="Full Stack Developer",
-        location="Israel",
-        num_pages=1
+        keywords=settings["keywords"],
+        location=settings["location"],
+        num_pages=settings["pages"]
     )
 
     if not jobs:
