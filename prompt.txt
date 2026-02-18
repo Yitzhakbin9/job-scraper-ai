@@ -12,6 +12,7 @@ MATCHING RULES – boost keywords, penalize keywords, and extra instructions for
 
 Important rules:
 
+Ignore what is already written on cv_profile.txt
 Keep the exact same structure and format of the template
 Keep all section headers and comment lines (lines starting with #) exactly as they are
 Replace only the placeholder values (text inside [brackets]) with real values from my CV

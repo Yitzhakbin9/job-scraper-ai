@@ -1,6 +1,5 @@
 import json
 import os
-import subprocess
 from datetime import datetime
 from scraper import scrape_linkedin_jobs
 from analyzer import analyze_all_jobs, get_cost_summary
@@ -12,9 +11,9 @@ def load_search_settings() -> dict:
     with open(cv_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    keywords = "Full Stack Developer"
-    location = "Israel"
-    pages = 1
+    keywords = ""
+    location = ""
+    pages = 3
 
     for line in content.splitlines():
         if line.startswith("SEARCH KEYWORDS:"):
@@ -26,6 +25,9 @@ def load_search_settings() -> dict:
                 pages = int(line.split(":", 1)[1].strip())
             except ValueError:
                 pass
+
+    if not keywords or not location:
+        raise ValueError("Please fill in SEARCH KEYWORDS and SEARCH LOCATION in cv_profile.txt")
 
     return {"keywords": keywords, "location": location, "pages": pages}
 
