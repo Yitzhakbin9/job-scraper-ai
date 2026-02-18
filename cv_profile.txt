@@ -1,0 +1,23 @@
+# =============================
+# CV PROFILE - Fill in your details
+# =============================
+
+NAME: [Your name]
+
+ROLE LOOKING FOR: [e.g. Full Stack Developer, Backend Developer]
+
+YEARS OF EXPERIENCE: [e.g. 3]
+
+TECH STACK:
+- [e.g. React]
+- [e.g. Node.js]
+- [e.g. Python]
+
+LOCATION: [e.g. Center of Israel]
+
+NOT LOOKING FOR:
+- [e.g. Java-only positions]
+- [e.g. positions outside center of Israel]
+
+EXTRA NOTES:
+- [Any other preferences]
