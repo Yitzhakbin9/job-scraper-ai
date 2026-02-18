@@ -50,7 +50,9 @@ ANTHROPIC_API_KEY=your_api_key_here
 
 ### 4. Fill in your CV profile
 
-Edit `cv_profile.txt` with your details — name, tech stack, location preferences, and what you're not looking for. The AI uses this to score each job.
+- **Use AI to generate it** — copy the prompt from `prompt.txt`, attach it along with your resume to any LLM (ChatGPT, Claude, etc.), and it will generate a personalized `cv_profile.txt` for you
+
+The AI analyzer uses this profile to score each job.
 
 ### 5. Configure your search
 
