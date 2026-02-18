@@ -37,7 +37,7 @@ cd job-scraper-ai
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install anthropic python-dotenv requests beautifulsoup4 openpyxl
+pip install -r requirements.txt
 ```
 
 ### 3. Add your API key
