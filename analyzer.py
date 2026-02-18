@@ -35,7 +35,7 @@ def analyze_job(job: dict, cv_profile: str) -> dict:
     prompt = f"""
 You are a job matching expert. Given a candidate profile and a job listing, analyze the match.
 
-CANDIDATE PROFILE:
+CANDIDATE PROFILE AND MATCHING RULES:
 {cv_profile}
 
 JOB LISTING:
@@ -47,12 +47,10 @@ You must respond with ONLY a JSON object, no other text, no markdown, no backtic
 Example response:
 {{"match_percentage": 85, "reason": "Strong React and Node.js match"}}
 
-Rules:
+Instructions:
 - match_percentage: number 0-100
 - reason: one short sentence
-- Penalize heavily if job is Java-only
-- Penalize if job is outside center of Israel
-- Boost if job requires React, Node.js, JavaScript
+- Follow the BOOST, PENALIZE and EXTRA INSTRUCTIONS rules from the candidate profile above
 """
 
     for attempt in range(3):

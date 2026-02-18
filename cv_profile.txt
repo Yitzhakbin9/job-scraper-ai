@@ -21,3 +21,19 @@ NOT LOOKING FOR:
 
 EXTRA NOTES:
 - [Any other preferences]
+
+# =============================
+# MATCHING RULES - Customize to your needs
+# =============================
+
+BOOST:
+- [e.g. React]
+- [e.g. Node.js]
+- [e.g. JavaScript]
+
+PENALIZE:
+- [e.g. Java-only positions]
+- [e.g. positions outside center of Israel]
+
+EXTRA INSTRUCTIONS:
+- [e.g. Prefer product companies over outsourcing]
