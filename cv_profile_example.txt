@@ -1,0 +1,73 @@
+# =============================
+# CV PROFILE - Fill in your details
+# =============================
+
+NAME: Yitzhak Binyamin
+
+ROLE LOOKING FOR: Full Stack Web Developer (React + Node.js)
+
+YEARS OF EXPERIENCE: 3
+
+TECH STACK:
+- React
+- Redux
+- JavaScript
+- Node.js
+- Express
+- MongoDB
+- Firebase
+- Firebase Auth
+- REST APIs
+- JWT
+- SQL
+- Git
+- Docker
+- Kubernetes
+- Jenkins
+- CI/CD
+
+LOCATION: Center of Israel (Tel Aviv, Rishon Lezion, Petah Tikva, Ramat Gan and surroundings)
+
+NOT LOOKING FOR:
+- Java-only positions
+- Positions outside center of Israel
+
+EXTRA NOTES:
+- 3 years production experience at Bank Hapoalim (Java-based enterprise systems)
+- Completed intensive Full Stack program (React, Node.js, MongoDB, Firebase)
+- Strong focus on clean architecture and production-ready code
+- Experienced in Agile environments and cross-functional teams
+- Open to hybrid, remote, or on-site positions
+
+# =============================
+# SEARCH SETTINGS
+# =============================
+
+SEARCH KEYWORDS: Full Stack Developer
+SEARCH LOCATION: Israel
+SEARCH PAGES: 3
+
+# =============================
+# MATCHING RULES - Customize to your needs
+# =============================
+
+BOOST:
+- React
+- Node.js
+- JavaScript
+- TypeScript
+- Full Stack
+- MongoDB
+- Firebase
+
+PENALIZE:
+- Java-only positions
+- Positions outside center of Israel
+- .NET-only positions
+- PHP-only positions
+- Angular-only positions
+
+EXTRA INSTRUCTIONS:
+- Prefer product companies over outsourcing companies
+- Prefer companies with modern tech stack
+- Mid-level or senior positions are preferred
