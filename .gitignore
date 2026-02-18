@@ -16,7 +16,6 @@ build/
 # Generated output files
 jobs.json
 *.xlsx
-*.html
 ~$*.xlsx
 
 # macOS
