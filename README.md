@@ -59,7 +59,7 @@ The AI analyzer uses this profile to score each job.
 In `main.py`, update the search parameters:
 
 ```python
-jobs = scrape_linkedin_jobs(
+jobs = load_search_settings(
     keywords="Full Stack Developer",
     location="Israel",
     num_pages=1
